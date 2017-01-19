@@ -1,0 +1,49 @@
+header{
+  height: 80px;
+  background-color: #D0D4D3;
+  margin-top: -21px;
+}
+.face_logo{
+  height: 50px;
+  width: 50px;
+  float: left;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.face_logo img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+
+}
+
+nav{
+  float: right;
+  margin-right: 50px;
+  margin-top: 10px;
+}
+nav a {
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Gloria Hallelujah', cursive;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 1.25em;
+  color: #092939;
+
+
+}
+nav a:hover {
+  background-color: #6E92A1;
+  box-shadow: 8px 8px 2px #888888;
+  border-radius: 5px;
+}
+a strong:hover {
+  color: white;
+}
+
+
+.heading_text {
+  font-family: 'Gloria Hallelujah', cursive;
+  text-align: center;
+}
