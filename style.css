@@ -1,7 +1,6 @@
 header{
-  height: 80px;
+  height: 120px;
   background-color: #D0D4D3;
-  margin-top: -21px;
 }
 .face_logo{
   height: 50px;
@@ -28,7 +27,7 @@ nav a {
   font-family: 'Gloria Hallelujah', cursive;
   padding-left: 10px;
   padding-right: 10px;
-  font-size: 1.25em;
+  font-size: 1.75em;
   color: #092939;
 
 
@@ -37,13 +36,88 @@ nav a:hover {
   background-color: #6E92A1;
   box-shadow: 8px 8px 2px #888888;
   border-radius: 5px;
+  text-decoration: none;
 }
 a strong:hover {
   color: white;
+  text-decoration: none;
 }
 
 
 .heading_text {
+  font-size: 55px;
   font-family: 'Gloria Hallelujah', cursive;
   text-align: center;
+  padding-top: 10px;
+  margin: 0 auto;
+}
+.sub_heading_text{
+  text-align: center;
+  clear: both;
+  position: relative;
+  right: 140px;
+  padding-top: 5px;
+  font-weight: 600;
+  letter-spacing: .05em;
+}
+
+h3{
+  text-align: center;
+}
+
+.face-lockup {
+  max-width: 780px;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.face-image img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+.github-icon img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.codepen-icon img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.freecodecamp-icon img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.twitter-icon img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.face-image {
+  order: 3;
+}
+.github-icon{
+  order:1;
+}
+.codepen-icon{
+  order: 2;
+}
+.freecodecamp-icon{
+  order: 4;
+}
+.twitter-icon{
+  order: 5;
+}
+.blurb {
+  max-width: 650px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 15px 0 15px;
+  margin: 55px auto 35px;
 }
