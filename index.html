@@ -3,6 +3,7 @@
   <head>
   <link rel="stylesheet" href="style.css" type="text/css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
   <title>Steven Tidd</title>
   </head>
 <body>
@@ -10,34 +11,109 @@
     <div class="face_logo"><a href="#"><img src="https://pbs.twimg.com/profile_images/627426004907069440/CL86a4OG.jpg"></a></div>
 
     <nav>
-    <a href="#"><strong>About</strong></a>
-    <a href="#"><strong>Portfolio</strong></a>
-    <a href="#"><strong>Contact</strong></a>
+    <a href="#about"><strong>About</strong></a>
+    <a href="#portfolio"><strong>Portfolio</strong></a>
+    <a href="#contact_form"><strong>Contact</strong></a>
     </nav>
 
     <h1 class="heading_text">Steven Tidd</h1>
     <p class="sub_heading_text"> learner // teacher </p>
   </header>
-  <section>
+  <article>
 
-    <h3>About Myself</h3>
+    <h3 id="about" class="about-me-text">About Myself</h3>
     <div class="face-lockup">
-            <div class="face-image"><img src="https://pbs.twimg.com/profile_images/630059787376590848/eYKjIg58.jpg"></div>
+            <div class="face-image"><a href="#"><img src="https://pbs.twimg.com/profile_images/630059787376590848/eYKjIg58.jpg"></a></div>
 
-            <div class="github-icon"><img src="https://assets-cdn.github.com/images/modules/open_graph/github-mark.png"></div>
-            <div class="codepen-icon"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-1/profile/profile-512_25.jpg"></div>
-            <div class="freecodecamp-icon"><img src="https://avatars0.githubusercontent.com/u/9892522?v=3&s=200"></div>
-            <div class="twitter-icon"><img src="https://abs.twimg.com/icons/apple-touch-icon-192x192.png"></div>
+            <div class="github-icon"><a href="https://github.com/stidd"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2000px-Octicons-mark-github.svg.png"></a></div>
+            <div class="codepen-icon"><a href="http://codepen.io/stidd/"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-1/profile/profile-512_25.jpg"></a></div>
+            <div class="freecodecamp-icon"><a href="https://www.freecodecamp.com/stidd"><img src="https://avatars0.githubusercontent.com/u/9892522?v=3&s=200"></a></div>
+            <div class="twitter-icon"><a href="https://twitter.com/StevenTidd"><img src="https://abs.twimg.com/icons/apple-touch-icon-192x192.png"></a></div>
     </div>
     <div class="blurb">
       <p><strong>"Lorem ipsum dolor sit amet, consectetur adipiscing elit,</strong> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
     </div>
+  </article>
+  <section>
+      <h2 id="portfolio" style="color:white">Portfolio</h2>
+      <hr>
+
+      <div class="portfolio-lockup row">
+        <div class="portfolio-pics">
+          <img class="col-xs-4" src="http://www.thebakerymadewithlove.com/wp-content/uploads/2014/08/placeholder.png">
+
+          <img  class="col-xs-4" src="http://www.thebakerymadewithlove.com/wp-content/uploads/2014/08/placeholder.png">
 
 
 
+          <img  class="col-xs-4" src="http://www.thebakerymadewithlove.com/wp-content/uploads/2014/08/placeholder.png">
 
+          <img class="col-xs-4" src="http://www.thebakerymadewithlove.com/wp-content/uploads/2014/08/placeholder.png">
 
-    </div>
+          <img class="col-xs-4" src="http://www.thebakerymadewithlove.com/wp-content/uploads/2014/08/placeholder.png">
+
+          <img class="col-xs-4" src="http://www.thebakerymadewithlove.com/wp-content/uploads/2014/08/placeholder.png">
+        </div>
+
+      </div>
+  </section>
+  <section id="contact_form" class="contact">
+    <h2 style="color:white;">Contact</h2>
+    <hr>
+    <div class="controls">
+
+       <div class="row">
+           <div class="col-md-6">
+               <div class="form-group">
+                   <label for="form_name">Firstname *</label>
+                   <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                   <div class="help-block with-errors"></div>
+               </div>
+           </div>
+           <div class="col-md-6">
+               <div class="form-group">
+                   <label for="form_lastname">Lastname *</label>
+                   <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                   <div class="help-block with-errors"></div>
+               </div>
+           </div>
+       </div>
+       <div class="row">
+           <div class="col-md-6">
+               <div class="form-group">
+                   <label for="form_email">Email *</label>
+                   <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                   <div class="help-block with-errors"></div>
+               </div>
+           </div>
+           <div class="col-md-6">
+               <div class="form-group">
+                   <label for="form_phone">Phone</label>
+                   <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone">
+                   <div class="help-block with-errors"></div>
+               </div>
+           </div>
+       </div>
+       <div class="row">
+           <div class="col-md-12">
+               <div class="form-group">
+                   <label for="form_message">Message *</label>
+                   <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please,leave us a message."></textarea>
+                   <div class="help-block with-errors"></div>
+               </div>
+           </div>
+           <div class="col-md-12">
+               <input type="submit" class="btn btn-success btn-send" value="Send message">
+           </div>
+       </div>
+       <div class="row">
+           <div class="col-md-12">
+
+           </div>
+       </div>
+   </div>
+
+</form>
   </section>
 
 

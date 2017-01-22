@@ -61,8 +61,13 @@ a strong:hover {
   letter-spacing: .05em;
 }
 
-h3{
+.about-me-text{
   text-align: center;
+  font-family: 'Shadows Into Light', cursive;
+  font-weight: 700;
+  font-size: 2em;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 
 .face-lockup {
@@ -80,23 +85,23 @@ h3{
   border-radius: 50%;
 }
 .github-icon img{
-  width: 100px;
-  height: 100px;
+  width: 75px;
+  height: 75px;
   border-radius: 50%;
 }
 .codepen-icon img{
-  width: 100px;
-  height: 100px;
+  width: 75px;
+  height: 75px;
   border-radius: 50%;
 }
 .freecodecamp-icon img{
-  width: 100px;
-  height: 100px;
+  width: 75px;
+  height: 75px;
   border-radius: 50%;
 }
 .twitter-icon img{
-  width: 100px;
-  height: 100px;
+  width: 75px;
+  height: 75px;
   border-radius: 50%;
 }
 .face-image {
@@ -119,5 +124,37 @@ h3{
   text-align: center;
   margin: 0 auto;
   padding: 0 15px 0 15px;
-  margin: 55px auto 35px;
+  margin: 55px auto 75px;
+}
+
+.portfolio-lockup {
+
+}
+
+.portfolio-pics img{
+  padding: 50px;
+}
+
+h2{ text-align:center; padding-top: 40px;
+  color: white;}
+
+section {
+  background-color: #444648;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+hr{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.contact{
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #A2A2A4;
+}
+
+.form-group{
+  padding: 3px;
 }
